@@ -1,0 +1,532 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="icon" href="./img/favicon.svg">
+    <link rel="mask-icon" href="./img/favicon.svg" color="#4d7be6">
+    <link rel="apple-touch-icon" href="./img/favicon.png">
+    <meta name="theme-color" content="#1c1c1c">
+
+    <title>Federico G. Gutierrez — Desarrollador Frontend</title>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css">
+    <link rel="stylesheet" href="main.css">
+</head>
+
+<body>
+
+    <div id="spinner" aria-hidden="true"><ion-icon name="code-slash-outline"></ion-icon></div>
+
+    <header class="main-header" aria-label="Encabezado">
+        <nav class="main-nav" aria-label="Menú principal">
+            <button class="open-menu" id="open-menu" aria-label="Abrir menú"><ion-icon
+                    name="menu-outline"></ion-icon></button>
+            <ul>
+                <button class="close-menu" id="close-menu" aria-label="Cerrar menú"><ion-icon
+                        name="close-outline"></ion-icon></button>
+                <li><a href="#about-me" aria-label="Sobre mí">Sobre mí</a></li>
+                <li><a href="#portfolio" aria-label="Portfolio">Portfolio</a></li>
+                <li><a href="#career" aria-label="Experiencia">Experiencia Laboral</a></li>
+                <li><a href="#contact" aria-label="Contacto">Contacto</a></li>
+            </ul>
+        </nav>
+        <div class="main-buttons">
+            <a href="./en" data-tooltip="Switch to English" data-tooltip-bottom aria-label="Switch to English"
+                id="button-language"><ion-icon name="language-outline"></ion-icon></a>
+            <button aria-hidden="true" id="color-mode"><ion-icon name="contrast-outline"></ion-icon></button>
+        </div>
+    </header>
+    <main aria-label="Contenido principal">
+        <section aria-label="Introducción" id="hero" class="hero">
+            <div class="container">
+                <div class="hero-inner">
+                    <div class="hero-inner-content">
+                        <div class="rellax-not-centered hero-image-container" data-rellax-speed="4"
+                            data-rellax-xs-speed="0" data-rellax-mobile-speed="1" data-rellax-tablet-speed="1">
+                            <div class="hero-image">
+                                <img src="fede-foto.png" alt="Fede" style="transform: scale(1.22)">
+                            </div>
+                        </div>
+                        <div class="hero-main rellax-not-centered" data-rellax-speed="-2">
+                            <h1 class="main-title">Federico G. Gutierrez</h1>
+                            <p class="hero-title">Soy Fede <span aria-hidden="true" class="wave">👋</span></p>
+                            <p class="hero-subtitle">Profesor de Matemática y Desarrollador Front-End</p>
+                            <p class="paragraph">
+                                Nacido en Argentina, cumpliendo sueños y en busca de nuevos desafios.
+                                Actualmente trabajo de profesor y me encuentro estudiando la Lidenciatura en Matemática en la Universidad Siglo 21.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="rellax-not-centered scroll-icon-container" data-rellax-speed="3">
+                <a class="mouse-scroll-icon visible" id="scroll-down" href="#about-me" aria-hidden="true">
+                    <i class="bi bi-mouse"></i>
+                </a>
+            </div>
+        </section>
+        <section aria-labelledby="about-me-title" id="about-me" class="section about-me">
+            <div class="container">
+                <h2 id="about-me-title" class="section-title type-mono rellax" data-rellax-speed="1"
+                    aria-label="Sobre mí">Sobre mí</h2>
+                <p class="paragraph">De 2013 a 2022 trabajé en el <strong>Municipio de Lomas de Zamora.</strong> 
+                    En 2018 comence a ejercer mi profesión docente en el <strong>Colegio Thomas Jefferson.</strong></p>
+                <p class="paragraph">En 2022 me surgio el interés por la Programación Web y comence a capacitarme en distintas academias.
+                    Además creé mi <a href="https://www.instagram.com/code.ando/" target="_blank"
+                        aria-label="canal de YouTube (abre en una nueva pestaña)">Instagram</a> como un espacio en el que compartir contenido.
+                    <!-- en el que compartir contenido. llegando a <span id="subCountTotal">más de
+                        2700</span> seguidores.</p> -->
+                <p class="paragraph paragraph-mini">Ver información completa en mi <a
+                        href="https://www.linkedin.com/in/federico-g-gutierrez/" target="_blank"
+                        aria-label="perfil de LinkedIn (abre en una nueva pestaña)">perfil de LinkedIn</a>.</p>
+
+                <ul class="skills-list" aria-labelledby="programming-languages-list-title">
+                    <h2 id="programming-languages-list-title" class="skills-titles">Skills</h2>
+                    <li class="skill">HTML 5</li>
+                    <li class="skill">CSS 3</li>
+                    <li class="skill">JavaScript</li>
+                    <li class="skill">React JS</li>
+                    <li class="skill">Bootstrap</li>
+                </ul>
+
+                <ul class="skills-list" aria-labelledby="more-skills-list-title">
+                    <h2 id="more-skills-list-title" class="skills-titles">Software</h2>
+                    <li class="skill">Visual Studio Code</li>
+                </ul>
+
+                <ul class="skills-list" aria-labelledby="languages-list-title">
+                    <h2 id="languages-list-title" class="skills-titles">Idiomas</h2>
+                    <li class="skill">Español (Nativo)</li>
+                    <li class="skill">Inglés (Básico)</li>
+                </ul>
+
+                <div class="section-footer" aria-hidden="true">
+                    <p>Sobre mí</p>
+                </div>
+            </div>
+        </section>
+        <!-- <section aria-label="Logros" id="achievements" class="section achievements">
+            <div class="container">
+                <div class="achievements-inner">
+                    <div class="achievement rellax" data-rellax-speed="4">
+                        <div class="achievement-icon"><ion-icon name="file-tray-full-outline"></ion-icon></div>
+                        <p class="achievement-number">+300</p>
+                        <p class="achievement-text">Proyectos</p>
+                    </div>
+                    <div class="achievement big rellax" data-rellax-speed="2">
+                        <div class="achievement-icon"><ion-icon name="logo-youtube"></ion-icon></div>
+                        <p class="achievement-number"><span id="subCount">+2.7K</span></p>
+                        <p class="achievement-text">Suscriptores</p>
+                        <div class="achievement-secondary">
+                            <p><span id="videoCount">68</span> videos</p>
+                            <p aria-hidden="true">•</p>
+                            <p><span id="viewCount">79.4K</span> views</p>
+                        </div>
+                    </div>
+                    <div class="achievement rellax" data-rellax-speed="3">
+                        <div class="achievement-icon"><ion-icon name="code-working-outline"></ion-icon></div>
+                        <p class="achievement-number">+9</p>
+                        <p class="achievement-text">Años de experiencia</p>
+                    </div>
+                </div>
+            </div>
+        </section> -->
+        <section aria-labelledby="portfolio-title" id="portfolio" class="section portfolio">
+            <div class="container">
+                <h2 id="portfolio-title" class="section-title type-mono rellax" data-rellax-speed="1"
+                    aria-label="Portfolio">Portfolio</h2>
+                <p class="paragraph">Mis primeros proyectos.</p>
+                <div class="projects-list">
+                    <article class="project" id="project-monotienda" aria-labelledby="title-monotienda">
+                        <div class="project-icons">
+                            <ion-icon aria-hidden="true" name="folder-outline"></ion-icon>
+                            <a target="_blank" href="https://github.com/fedco-gtz/Lumetrio.github.io"
+                                aria-label="Ver repositorio en GitHub (abre en una nueva pestaña)"
+                                data-tooltip="Ver repositorio"><ion-icon name="logo-github"></ion-icon>
+                            </a>
+                            <a target="_blank" href="https://fedco-gtz.github.io/Lumetrio.github.io/"
+                                aria-label="Ver deploy (abre en una nueva pestaña)" data-tooltip="Ver deploy"><ion-icon
+                                    name="link-outline"></ion-icon></a>
+                        </div>
+                        <h3 id="title-monotienda" class="project-title">Curriculum Vitae</h3>
+                        <p>Proyecto Final Desarrolador Front-End ~ Lumetrio ~</p>
+                        <ul class="skills-list project-skills">
+                            <li class="skill">HTML</li>
+                            <li class="skill">CSS</li>
+                            <li class="skill">JavaScript</Script></li>
+                        </ul>
+                    </article>
+                    <article class="project" id="project-carpishop" aria-labelledby="title-carpishop">
+                        <div class="project-icons">
+                            <ion-icon aria-hidden="true" name="folder-outline"></ion-icon>
+                            <a target="_blank" href="https://github.com/fedco-gtz/CodoaCodo.github.io"
+                                aria-label="Ver repositorio en GitHub (abre en una nueva pestaña)"
+                                data-tooltip="Ver repositorio"><ion-icon name="logo-github"></ion-icon>
+                            </a>
+                            <a target="_blank" href="https://fedco-gtz.github.io/CodoaCodo.github.io/Index.html"
+                                aria-label="Ver deploy (abre en una nueva pestaña)" data-tooltip="Ver deploy"><ion-icon
+                                    name="link-outline"></ion-icon></a>
+                            </a>
+                        </div>
+                        <h3 id="title-carpishop" class="project-title">Music Store</h3>
+                        <p>E-commerce interactivo en HTML, CSS y JavaScript. Proyecto colaborativo.</p>
+                        <ul class="skills-list project-skills">
+                            <li class="skill">HTML</li>
+                            <li class="skill">CSS</li>
+                            <li class="skill">JavaScript</li>
+                            <li class="skill">JSON</li>
+                        </ul>
+                    </article>
+                    <article class="project" id="project-pokedex" aria-labelledby="title-pokedex">
+                        <div class="project-icons">
+                            <ion-icon aria-hidden="true" name="folder-outline"></ion-icon>
+                            <a target="_blank" href="https://github.com/fedco-gtz/Final.github.io"
+                                aria-label="Ver repositorio en GitHub (abre en una nueva pestaña)"
+                                data-tooltip="Ver repositorio"><ion-icon name="logo-github"></ion-icon>
+                            </a>
+                            <a target="_blank" href="https://fedco-gtz.github.io/Final.github.io/"
+                                aria-label="Ver deploy (abre en una nueva pestaña)" data-tooltip="Ver deploy"><ion-icon
+                                    name="link-outline"></ion-icon></a>
+                        </div>
+                        <h3 id="title-pokedex" class="project-title">Invitación Casamiento</h3>
+                        <p>Invitación digital.</p>
+                        <ul class="skills-list project-skills">
+                            <li class="skill">HTML</li>
+                            <li class="skill">CSS</li>
+                            <li class="skill">JavaScript</li>
+                            <li class="skill">Bootstrap</li>
+                        </ul>
+                    </article>
+                    <!-- <article class="project" id="project-del-bit-al-atomo" aria-labelledby="title-del-bit-al-atomo">
+                        <div class="project-icons">
+                            <ion-icon aria-hidden="true" name="folder-outline"></ion-icon>
+                            <a target="_blank" href="https://github.com/carpistudio/dbaa"
+                                aria-label="Ver repositorio en GitHub (abre en una nueva pestaña)"
+                                data-tooltip="Ver repositorio"><ion-icon name="logo-github"></ion-icon>
+                            </a>
+                            <a target="_blank" href="https://carpistudio.github.io/dbaa"
+                                aria-label="Ver deploy (abre en una nueva pestaña)" data-tooltip="Ver deploy"><ion-icon
+                                    name="link-outline"></ion-icon></a>
+                        </div>
+                        <h3 id="title-del-bit-al-atomo" class="project-title">Del Bit Al Átomo</h3>
+                        <p>Proyecto freelance interactivo y con una estructura muy particular lograda con CSS Grid.</p>
+                        <ul class="skills-list project-skills">
+                            <li class="skill">HTML</li>
+                            <li class="skill">SCSS</li>
+                            <li class="skill">CSS Grid</li>
+                            <li class="skill">jQuery</li>
+                        </ul>
+                    </article> -->
+                    <!-- <article class="project" id="project-miletta" aria-labelledby="title-miletta">
+                        <div class="project-icons">
+                            <ion-icon aria-hidden="true" name="folder-outline"></ion-icon>
+                            <a target="_blank" href="https://github.com/carpistudio/milettacoder"
+                                aria-label="Ver repositorio en GitHub (abre en una nueva pestaña)"
+                                data-tooltip="Ver repositorio"><ion-icon name="logo-github"></ion-icon></a>
+                            <a target="_blank" href="https://carpistudio.github.io/milettacoder"
+                                aria-label="Ver deploy (abre en una nueva pestaña)" data-tooltip="Ver deploy"><ion-icon
+                                    name="link-outline"></ion-icon></a>
+                        </div>
+                        <h3 id="title-miletta" class="project-title">Miletta Pastelería</h3>
+                        <p>Proyecto de sitio web estático en HTML + CSS para una pastelería en Buenos Aires.</p>
+                        <ul class="skills-list project-skills">
+                            <li class="skill">HTML</li>
+                            <li class="skill">CSS</li>
+                            <li class="skill">SCSS</li>
+                            <li class="skill">Bootstrap</li>
+                        </ul>
+                    </article>
+                </div> -->
+
+                <div class="section-footer" aria-hidden="true">
+                    <p>Portfolio</p>
+                </div>
+            </div>
+        </section>
+        <section aria-labelledby="career-title" id="career" class="section career">
+            <div class="container">
+                <h2 id="career-title" class="section-title type-mono rellax" data-rellax-speed="1"
+                    aria-label="Experiencia">Experiencia Laboral</h2>
+
+                <div class="jobs-list" aria-label="Trabajos">
+
+                    <article class="job">
+                        <div class="job-company">
+                            <h3 class="company-title">Colegio Thomas Jefferson</h3>
+                            <a target="_blank" href="https://www.instagram.com/colegiothomasjeffersonctj/" class="company-link"
+                                data-tooltip="Ver sitio web" aria-label="Ver sitio web (abre en una nueva pestaña)">
+                                <ion-icon name="link-outline"></ion-icon>
+                            </a>
+                        </div>
+                        <p class="company-type">Institución Educativa</p>
+                        <ul class="roles" aria-label="Roles">
+                            <li class="role">
+                                <p class="title">Preceptor</p>
+                                <p class="date">Jun. 2023 - Actualidad</p>
+                            </li>
+                            <li class="role">
+                                <p class="title">Profesor de Matemática</p>
+                                <p class="date">Jun. 2023 - Actualidad</p>
+                            </li>
+                            <li class="role">
+                                <p class="title">Profesor de Matemática y Física</p>
+                                <p class="date">Jun. 2019 - Jun. 2023</p>
+                            </li>
+                        </ul>
+                    </article>
+
+                    <article class="job">
+                        <div class="job-company">
+                            <h3 class="company-title">Dirección General de Cultura y Educación P.B.A.</h3>
+                            <div>
+                                <a target="_blank" href="https://abc.gob.ar" class="company-link"
+                                    data-tooltip="Ver sitio web" aria-label="Ver sitio web (abre en una nueva pestaña)">
+                                    <ion-icon name="link-outline"></ion-icon>
+                                </a>
+                            </div>
+                        </div>
+                        <p class="company-type">Educación</p>
+                        <ul class="roles" aria-label="Roles">
+                            <li class="role">
+                                <p class="title">Profesor de Matemática en C.E.N.S. Nro 467 (Lomas de Zamora)</p>
+                                <p class="date">Feb. 2023 - Actualidad</p>
+                            </li>
+                            <li class="role">
+                                <p class="title">Profesor de Matemática en E.E.S.T. Nro 3 (Alte. Brown)</p>
+                                <p class="date">Mar. 2019 - Mar. 2020</p>
+                            </li>
+                            <li class="role">
+                                <p class="title">Profesor de Matemática en E.E.S. Nro 22 (Alte. Brown)</p>
+                                <p class="date">Mar. 2019 - Abr. 2019</p>
+                            </li>
+                        </ul>
+                    </article>
+
+                    <article class="job">
+                        <div class="job-company">
+                            <h3 class="company-title">Municipio de Lomas de Zamora</h3>
+                            <a target="_blank" href="https://www.lomasdezamora.gov.ar/" class="company-link"
+                                data-tooltip="Ver sitio web" aria-label="Ver sitio web (abre en una nueva pestaña)">
+                                <ion-icon name="link-outline"></ion-icon>
+                            </a>
+                        </div>
+                        <p class="company-type">Gobierno Municipal</p>
+                        <ul class="roles" aria-label="Roles">
+                            <li class="role">
+                                <p class="title">Capacitador del Programa Municipal de Educación Vial en escuelas</p>
+                                <p class="date">Mar. 2017 - Feb. 2023</p>
+                            </li>
+                            <li class="role">
+                                <p class="title">Resolución de expedientes provinciales y municipales</p>
+                                <p class="date">Jul. 2015 - Feb. 2023</p>
+                            </li>
+                            <li class="role">
+                                <p class="title">Atención al Público</p>
+                                <p class="date">Ene. 2013 - Feb. 2023</p>
+                            </li>
+                        </ul>
+                    </article>
+
+                    <article class="job">
+                        <div class="job-company">
+                            <h3 class="company-title">Colegio Modelo Marmol</h3>
+                            <a target="_blank" href="https://colegiomodelomarmol.com.ar/" class="company-link"
+                                data-tooltip="Ver sitio web" aria-label="Ver sitio web (abre en una nueva pestaña)">
+                                <ion-icon name="link-outline"></ion-icon>
+                            </a>
+                        </div>
+                        <p class="company-type">Institución Educativa</p>
+                        <ul class="roles" aria-label="Roles">
+                            <li class="role">
+                                <p class="title">Profesor de Matemática</p>
+                                <p class="date">Sep. 2018 - Oct. 2018</p>
+                            </li>
+                        </ul>
+                    </article>
+
+
+                </div>
+
+                <div class="section-footer" aria-hidden="true">
+                    <p>Experiencia Laboral</p>
+                </div>
+            </div>
+        </section>
+        <!-- <section aria-label="Valoraciones" id="testimonials" class="section testimonials">
+            <div class="container">
+                <h2 id="testimonials-title" class="section-title type-mono rellax" data-rellax-speed="1"
+                    aria-label="Valoraciones">Valoraciones</h2>
+                <p class="paragraph mb-025">Estos son algunos comentarios que los usuarios dejan en mis plataformas
+                    educativas.</p>
+                <p class="paragraph paragraph-mini">Por favor, contactame a <a
+                        href="mailto:hola@carpicoder.com">hola@carpicoder.com</a> si tu comentario se muestra acá y
+                    querés permanecer anónimo.</p>
+
+                <div class="swiper mySwiper">
+                    <ul class="swiper-wrapper">
+
+                        <li class="swiper-slide">
+                            <div class="comment-header">
+                                <div aria-hidden="true" class="comment-icon">E</div>
+                                <p class="comment-name">Emanuel De Los Santos</p>
+                            </div>
+                            <div class="comment-body">
+                                "Hace 4 meses arranqué con este mundo y tu forma de explicar fue la mejor que encontré,
+                                me quedan mucho mejor tus enseñanzas que otras. Muchas gracias por todo!"
+                            </div>
+                            <p class="comment-type">Comentario en YouTube</p>
+                        </li>
+
+                        <li class="swiper-slide">
+                            <div class="comment-header">
+                                <div aria-hidden="true" class="comment-icon">A</div>
+                                <p class="comment-name">Andrea Berardi</p>
+                            </div>
+                            <div class="comment-body">
+                                "Explicás súper, se nota que realmente disfrutás lo que hacés! Seguí así :) Gracias por
+                                compartirlo."
+                            </div>
+                            <p class="comment-type">Comentario en YouTube</p>
+                        </li>
+
+                        <li class="swiper-slide">
+                            <div class="comment-header">
+                                <div aria-hidden="true" class="comment-icon">S</div>
+                                <p class="comment-name">Santiago Santoro</p>
+                            </div>
+                            <div class="comment-body">
+                                "Primer video que veo. Te entiendo muchísimo mas que a mi profesor. Sos un genio, ya me
+                                suscribo a tu canal."
+                            </div>
+                            <p class="comment-type">Comentario en YouTube</p>
+                        </li>
+
+                        <li class="swiper-slide">
+                            <div class="comment-header">
+                                <div aria-hidden="true" class="comment-icon">M</div>
+                                <p class="comment-name">Martín Olivera</p>
+                            </div>
+                            <div class="comment-body">
+                                "Acabo de terminar este curso y me ha motivado a seguir estudiando, ya que vengo de un
+                                rubro totalmente diferente! Muchisimas gracias genio 🙌"
+                            </div>
+                            <p class="comment-type">Comentario en YouTube</p>
+                        </li>
+
+                        <li class="swiper-slide">
+                            <div class="comment-header">
+                                <div aria-hidden="true" class="comment-icon">P</div>
+                                <p class="comment-name">Pamela García</p>
+                            </div>
+                            <div class="comment-body">
+                                "Me recomendó tu canal una compañera para complementar el curso de JS que estoy
+                                haciendo. Te felicito, ¡explicás súper! Suscripción ✅"
+                            </div>
+                            <p class="comment-type">Comentario en YouTube</p>
+                        </li>
+
+                        <li class="swiper-slide">
+                            <div class="comment-header">
+                                <div aria-hidden="true" class="comment-icon">U</div>
+                                <p class="comment-name">Uriel Axel Espeleta</p>
+                            </div>
+                            <div class="comment-body">
+                                "Muy clara la explicación, siempre sos el salvavidas para los cursos que vengo haciendo,
+                                complemento con tus videos muy bien."
+                            </div>
+                            <p class="comment-type">Comentario en YouTube</p>
+                        </li>
+
+                        <li class="swiper-slide">
+                            <div class="comment-header">
+                                <div aria-hidden="true" class="comment-icon">M</div>
+                                <p class="comment-name">Gabriel Toledo</p>
+                            </div>
+                            <div class="comment-body">
+                                "Muy bueno. Justo estaba buscando para hacer una web sencilla con HTML y CSS. Nuevo
+                                suscriptor."
+                            </div>
+                            <p class="comment-type">Comentario en YouTube</p>
+                        </li>
+
+                    </ul>
+                    <div aria-hidden="true" class="swiper-pagination"></div>
+                    <div aria-hidden="true" class="swiper-button-prev"></div>
+                    <div aria-hidden="true" class="swiper-button-next"></div>
+                </div>
+
+
+                <div class="section-footer" aria-hidden="true">
+                    <p>Valoraciones</p>
+                </div>
+            </div>
+        </section> -->
+        <section aria-labelledby="contact-title" id="contact" class="section contact">
+            <div class="container">
+                <h2 id="contact-title" class="section-title type-mono rellax" data-rellax-speed="1"
+                    aria-label="Contacto">Contacto</h2>
+
+                <p class="paragraph">Mi bandeja de entrada está siempre abierta para consultas, proyectos o si
+                    simplemente querés pasar a saludar. ¡Te responderé lo antes posible! <span aria-hidden="true"
+                        class="wave">👋</span></p>
+
+                <p class="paragraph">Podés escribirme en <a href="mailto:gutierrezfedericog@gmail.com">gutierrezfedericog@gmail.com</a>.
+                </p>
+
+                <div class="section-footer" aria-hidden="true">
+                    <p>Contacto</p>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="main-footer" aria-label="Pie de página">
+        <div class="container">
+            <div class="main-footer-inner">
+                <a target="_blank" href="https://instagram.com/code.ando" data-tooltip="Instagram"
+                    aria-label="Instagram (abre en una nueva pestaña)">
+                    <ion-icon name="logo-instagram"></ion-icon>
+                </a>
+                <a target="_blank" href="https://github.com/fedco-gtz" data-tooltip="GitHub"
+                    aria-label="GitHub (abre en una nueva pestaña)">
+                    <ion-icon name="logo-github"></ion-icon>
+                </a>
+                <a target="_blank" href="https://linkedin.com/in/federico-g-gutierrez" data-tooltip="LinkedIn"
+                    aria-label="LinkedIn (abre en una nueva pestaña)">
+                    <ion-icon name="logo-linkedin"></ion-icon>
+                </a>
+            </div>
+        </div>
+    </footer>
+
+    <a href="#" class="go-top" id="go-top" data-tooltip="Ir arriba" data-tooltip-left aria-hidden="true"><ion-icon
+            name="arrow-up-outline"></ion-icon></a>
+
+    <!-- IONICONS -->
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+    <!-- RELLAX JS-->
+    <script src="https://cdn.jsdelivr.net/gh/dixonandmoe/rellax@master/rellax.min.js"></script>
+    <script>
+        var rellax = new Rellax('.rellax', { center: true });
+        var rellaxNotCentered = new Rellax('.rellax-not-centered');
+    </script>
+
+    <!-- SWIPER JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script src="swiper.js"></script>
+
+    <!-- OWN SCRIPTS -->
+    <script src="loader.js"></script>
+    <script src="./js/color-mode.js"></script>
+    <script src="menu.js"></script>
+    <script src="subscribers.js"></script>
+    <script src="./js/language.js"></script>
+</body>
+
+</html>
