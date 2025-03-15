@@ -164,7 +164,7 @@
         "estado": "Finalizado",
         "proyecto": {
             "existe": true,
-            "link": "",
+            "link": "https://colab.research.google.com/drive/1ZoM2H0uWLvlyE13wbXbynVg1c740UzBb?usp=sharing",
             "imagen": "../images/Coderhouse/MateAi.png",
             "imagen_width": "150", 
             "imagen_height": "80"
@@ -179,9 +179,9 @@
         "curso": "Data Analytics",
         "estado": "Finalizado",
         "proyecto": {
-            "existe": false,
-            "link": "",
-            "imagen": "",
+            "existe": true,
+            "link": "https://drive.google.com/drive/folders/17iOdx5Xhndc7DP5je6cNdcZ060gh4iT4?usp=sharing",
+            "imagen": "../images/Coderhouse/VialData.png",
             "imagen_width": "120", 
             "imagen_height": "80"
         },
