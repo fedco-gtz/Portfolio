@@ -5,7 +5,7 @@
         "proyecto": {
             "existe": true,
             "link": "https://mascotas-felices.netlify.app/",
-            "imagen": "images/Coderhouse/Mascotas-Felices.png",
+            "imagen": "../images/Coderhouse/Mascotas-Felices.png",
             "imagen_width": "80", 
             "imagen_height": "80"
         },
