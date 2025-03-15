@@ -38,7 +38,7 @@
             "existe": true,
             "link": "https://colab.research.google.com/drive/1-gJo2rN_iyMP0ezwPLhU13teCePDKvBL?usp=sharing",
             "imagen": "../images/Lumetrio/Piedra-Papel-Tijera.png",
-            "imagen_width": "80", 
+            "imagen_width": "100", 
             "imagen_height": "80"
         },
         "certificado": {
@@ -67,9 +67,9 @@
         "curso": "Git y GitHub",
         "estado": "Finalizado",
         "proyecto": {
-            "existe": false,
+            "existe": true,
             "link": "https://github.com/fedco-gtz/Git-y-GitHub",
-            "imagen": "../images/Lumetrio/",
+            "imagen": "../images/Lumetrio/Git-Hub.png",
             "imagen_width": "120", 
             "imagen_height": "80"
         },
