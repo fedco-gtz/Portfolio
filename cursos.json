@@ -166,7 +166,7 @@
             "existe": true,
             "link": "",
             "imagen": "images/MateAi.png",
-            "imagen_width": "80", 
+            "imagen_width": "120", 
             "imagen_height": "80"
         },
         "certificado": {
@@ -177,12 +177,12 @@
     },
     {
         "curso": "Data Analytics",
-        "estado": "En curso",
+        "estado": "Finalizado",
         "proyecto": {
             "existe": false,
             "link": "",
             "imagen": "images/.png",
-            "imagen_width": "80", 
+            "imagen_width": "120", 
             "imagen_height": "80"
         },
         "certificado": {
@@ -193,7 +193,7 @@
     },
     {
         "curso": "Data Science I",
-        "estado": "Pendiente",
+        "estado": "En curso",
         "proyecto": {
             "existe": false,
             "link": "",
@@ -225,6 +225,54 @@
     },
     {
         "curso": "Data Science III",
+        "estado": "Pendiente",
+        "proyecto": {
+            "existe": false,
+            "link": "",
+            "imagen": "images/.png",
+            "imagen_width": "80", 
+            "imagen_height": "80"
+        },
+        "certificado": {
+            "existe": false,
+            "link": "",
+            "imagen": "images/Certificado.png"
+        }
+    },
+    {
+        "curso": "Excel",
+        "estado": "Pendiente",
+        "proyecto": {
+            "existe": false,
+            "link": "",
+            "imagen": "images/.png",
+            "imagen_width": "80", 
+            "imagen_height": "80"
+        },
+        "certificado": {
+            "existe": false,
+            "link": "",
+            "imagen": "images/Certificado.png"
+        }
+    },
+    {
+        "curso": "Tableau",
+        "estado": "Pendiente",
+        "proyecto": {
+            "existe": false,
+            "link": "",
+            "imagen": "images/.png",
+            "imagen_width": "80", 
+            "imagen_height": "80"
+        },
+        "certificado": {
+            "existe": false,
+            "link": "",
+            "imagen": "images/Certificado.png"
+        }
+    },
+    {
+        "curso": "Data Analytics",
         "estado": "Pendiente",
         "proyecto": {
             "existe": false,
