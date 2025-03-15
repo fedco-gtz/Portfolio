@@ -6,7 +6,7 @@
             "existe": true,
             "link": "",
             "imagen": "../images/Lumetrio/Piedra-Papel-Tijera.png",
-            "imagen_width": "80", 
+            "imagen_width": "100", 
             "imagen_height": "80"
         },
         "certificado": {
@@ -67,7 +67,7 @@
         "curso": "Git y GitHub",
         "estado": "Finalizado",
         "proyecto": {
-            "existe": true,
+            "existe": false,
             "link": "https://github.com/fedco-gtz/Git-y-GitHub",
             "imagen": "../images/Lumetrio/",
             "imagen_width": "120", 
