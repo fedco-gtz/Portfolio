@@ -3,24 +3,72 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tabla desde JSON</title>
-    <link rel="stylesheet" href="styles.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">   
+    <title>Mi Portafolio</title>
+    <style>
+        /* 🎯 General */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #121212;
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 20px auto;
+            background-color: #121212;
+            color: #ffffff;
+            border-radius: 8px;
+            padding: 20px;
+        }
+        
+        h1 {
+            text-align: center;
+            color: #ffd700;
+        }
+        
+        .startups {
+            text-align: center;
+            margin-top: 20px;
+        }
+        
+        .startups a {
+            display: inline-block;
+            margin: 10px;
+            padding: 10px;
+            border-radius: 5px;
+            background: #1e1e1e;
+            box-shadow: 0 0 5px rgba(255, 215, 0, 0.5);
+            transition: transform 0.2s;
+        }
+        
+        .startups a:hover {
+            transform: scale(1.1);
+        }
+        
+        .startups img {
+            width: 100px;
+            height: auto;
+        }
+    </style>
 </head>
 <body>
-    <h1>PROYECTOS FINALES CODERHOUSE</h1>
-    
-    <table id="data-table">
-        <thead>
-            <tr>
-                <th>CURSOS</th>
-                <th>ESTADO</th>
-                <th>PROYECTO FINAL</th>
-                <th>CERTIFICACIÓN</th>
-            </tr>
-        </thead>
-        <tbody></tbody>
-    </table>
-    <script src="cursos.js"></script>
+    <div class="container">
+        <h1>Mi Portafolio</h1>
+        <p>Hola, soy [Tu Nombre], un desarrollador Full Stack apasionado por la tecnología, la innovación y el aprendizaje continuo.</p>
+        
+        <div class="startups">
+            <h2>Startups donde me capacité</h2>
+            <a href="Coderhouse.html" target="_blank">
+                <img src="logo1.png" alt="Startup 1">
+            </a>
+            <a href="#" target="_blank">
+                <img src="logo2.png" alt="Startup 2">
+            </a>
+            <a href="#" target="_blank">
+                <img src="logo3.png" alt="Startup 3">
+            </a>
+        </div>
+    </div>
 </body>
 </html>
