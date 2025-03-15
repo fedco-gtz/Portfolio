@@ -2,7 +2,6 @@
     {
         "curso": "Desarrollo Web",
         "estado": "Finalizado",
-        "calificacion": 10,
         "proyecto": {
             "existe": true,
             "link": "https://mascotas-felices.netlify.app/",
@@ -19,7 +18,6 @@
     {
         "curso": "JavaScript",
         "estado": "Finalizado",
-        "calificacion": 10,
         "proyecto": {
             "existe": true,
             "link": "https://vuelasmart.netlify.app/",
@@ -36,7 +34,6 @@
     {
         "curso": "React JS",
         "estado": "Finalizado",
-        "calificacion": 9,
         "proyecto": {
             "existe": true,
             "link": "https://zapatienda.vercel.app/",
@@ -53,7 +50,6 @@
     {
         "curso": "Programación Backend I: Desarrollo avanzado de Backend",
         "estado": "Finalizado",
-        "calificacion": 10,
         "proyecto": {
             "existe": true,
             "link": "https://github.com/fedco-gtz/Backend-I-Coderhouse/",
@@ -70,7 +66,6 @@
     {
         "curso": "Programación Backend II: Diseño y Arquitectura Backend",
         "estado": "Finalizado",
-        "calificacion": 10,
         "proyecto": {
             "existe": true,
             "link": "https://github.com/fedco-gtz/Backend-II-Coderhouse/",
@@ -87,7 +82,6 @@
     {
         "curso": "Programación Backend III: Testing y Escalabilidad Backend",
         "estado": "Finalizado",
-        "calificacion": 10,
         "proyecto": {
             "existe": true,
             "link": "https://github.com/fedco-gtz/Backend-III-Coderhouse/",
@@ -104,7 +98,6 @@
     {
         "curso": "SQL",
         "estado": "En Curso",
-        "calificacion": null,
         "proyecto": {
             "existe": false,
             "link": "",
@@ -121,7 +114,6 @@
     {
         "curso": "Testing QA Manual",
         "estado": "Pendiente",
-        "calificacion": null,
         "proyecto": {
             "existe": false,
             "link": "",
@@ -138,7 +130,6 @@
     {
         "curso": "Cloud Computing (AWS)",
         "estado": "Pendiente",
-        "calificacion": null,
         "proyecto": {
             "existe": false,
             "link": "",
@@ -155,7 +146,6 @@
     {
         "curso": "Fundamentos de la Inteligencia Artificial",
         "estado": "Finalizado",
-        "calificacion": 10,
         "proyecto": {
             "existe": true,
             "link": "",
@@ -172,7 +162,6 @@
     {
         "curso": "Inteligencia artificial: Generación de Prompts",
         "estado": "Finalizado",
-        "calificacion": null,
         "proyecto": {
             "existe": true,
             "link": "",
@@ -189,7 +178,6 @@
     {
         "curso": "Data Analytics",
         "estado": "En curso",
-        "calificacion": null,
         "proyecto": {
             "existe": false,
             "link": "",
@@ -206,7 +194,6 @@
     {
         "curso": "Data Science I: Fundamentos para la Ciencia de Datos",
         "estado": "Pendiente",
-        "calificacion": null,
         "proyecto": {
             "existe": false,
             "link": "",
@@ -223,7 +210,6 @@
     {
         "curso": "Data Science II: Machine Learning para la Ciencia de Datos",
         "estado": "Pendiente",
-        "calificacion": null,
         "proyecto": {
             "existe": false,
             "link": "",
@@ -240,7 +226,6 @@
     {
         "curso": "Data Science III: NLP & Deep Learning aplicado a Ciencia de Datos",
         "estado": "Pendiente",
-        "calificacion": null,
         "proyecto": {
             "existe": false,
             "link": "",
