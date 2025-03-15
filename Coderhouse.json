@@ -5,7 +5,7 @@
         "proyecto": {
             "existe": true,
             "link": "https://mascotas-felices.netlify.app/",
-            "imagen": "images/Mascotas-Felices.png",
+            "imagen": "images/Coderhouse/Mascotas-Felices.png",
             "imagen_width": "80", 
             "imagen_height": "80"
         },
@@ -21,7 +21,7 @@
         "proyecto": {
             "existe": true,
             "link": "https://vuelasmart.netlify.app/",
-            "imagen": "images/VuelaSmart.png",
+            "imagen": "images/Coderhouse/VuelaSmart.png",
             "imagen_width": "120", 
             "imagen_height": "80"
         },
@@ -37,7 +37,7 @@
         "proyecto": {
             "existe": true,
             "link": "https://zapatienda.vercel.app/",
-            "imagen": "images/ZapaTienda.png",
+            "imagen": "images/Coderhouse/ZapaTienda.png",
             "imagen_width": "80", 
             "imagen_height": "80"
         },
@@ -53,7 +53,7 @@
         "proyecto": {
             "existe": true,
             "link": "https://github.com/fedco-gtz/Backend-I-Coderhouse/",
-            "imagen": "images/Verde-Vital.png",
+            "imagen": "images/Coderhouse/Verde-Vital.png",
             "imagen_width": "120", 
             "imagen_height": "80"
         },
@@ -69,7 +69,7 @@
         "proyecto": {
             "existe": true,
             "link": "https://github.com/fedco-gtz/Backend-II-Coderhouse/",
-            "imagen": "images/Verde-Vital.png",
+            "imagen": "images/Coderhouse/Verde-Vital.png",
             "imagen_width": "120", 
             "imagen_height": "80"
         },
@@ -85,7 +85,7 @@
         "proyecto": {
             "existe": true,
             "link": "https://github.com/fedco-gtz/Backend-III-Coderhouse/",
-            "imagen": "images/AdoptMe.png",
+            "imagen": "images/Coderhouse/AdoptMe.png",
             "imagen_width": "120", 
             "imagen_height": "80"
         },
@@ -149,7 +149,7 @@
         "proyecto": {
             "existe": true,
             "link": "",
-            "imagen": "images/Las-matemáticas-en-el-universo.png",
+            "imagen": "images/Coderhouse/Las-matemáticas-en-el-universo.png",
             "imagen_width": "80", 
             "imagen_height": "80"
         },
@@ -165,8 +165,8 @@
         "proyecto": {
             "existe": true,
             "link": "",
-            "imagen": "images/MateAi.png",
-            "imagen_width": "120", 
+            "imagen": "images/Coderhouse/MateAi.png",
+            "imagen_width": "130", 
             "imagen_height": "80"
         },
         "certificado": {
@@ -245,7 +245,7 @@
         "proyecto": {
             "existe": false,
             "link": "",
-            "imagen": "images/.png",
+            "imagen": "",
             "imagen_width": "80", 
             "imagen_height": "80"
         },
@@ -261,7 +261,7 @@
         "proyecto": {
             "existe": false,
             "link": "",
-            "imagen": "images/.png",
+            "imagen": "",
             "imagen_width": "80", 
             "imagen_height": "80"
         },
@@ -277,7 +277,7 @@
         "proyecto": {
             "existe": false,
             "link": "",
-            "imagen": "images/.png",
+            "imagen": "",
             "imagen_width": "80", 
             "imagen_height": "80"
         },
