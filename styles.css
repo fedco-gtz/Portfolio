@@ -1,0 +1,116 @@
+/* 🎯 General */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #121212;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 20px auto;
+    background-color: #121212;
+    color: #ffffff;
+    border-radius: 8px;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    color: #ffd700;
+}
+
+/* 🎯 Tabla */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    padding: 10px;
+    text-align: center;
+    justify-content: center;
+}
+
+th {
+    background-color: #232323;
+    color: #ffd700;
+}
+
+td {
+    background-color: #1e1e1e;
+}
+
+#data-table {
+    width: 100%;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+#data-table th, #data-table td {
+    padding: 10px;
+    text-align: center;
+}
+
+/* 🎯 Nombre del curso */
+.curso {
+    color:#ffffff;
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: uppercase;
+    background-color: #121212;
+}
+
+/* 🎯 Estado del curso */
+.estado {
+    display: flex;
+    align-items: center;
+    padding: 5px 12px;
+    border-radius: 20px;
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    border: 1px solid transparent;
+    width: 100px;
+    height: 10px;
+    background-color: #232323;
+}
+
+/* Estado: En curso */
+.en-curso {
+    background-color: #ff9800;
+    color: #ffffff;
+    border-color: #ff9800;
+    padding: 5px 12px;
+    justify-content: center;
+}
+
+/* Estado: Finalizado */
+.finalizado {
+    background-color: #4caf50;
+    color: #ffffff;
+    border-color: #4caf50;
+    justify-content: center;
+}
+
+/* Estado: Pendiente */
+.pendiente {
+    background-color: #ff4d4d;
+    color: #ffffff;
+    border-color: #ff4d4d;
+    justify-content: center;
+}
+
+/* 🎯 Calificación */
+.calificacion {
+    color:#ffd700;
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: uppercase;
+    background-color: #121212;
+}
+
+
+

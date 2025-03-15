@@ -1,0 +1,257 @@
+[
+    {
+        "curso": "Desarrollo Web",
+        "estado": "Finalizado",
+        "calificacion": 10,
+        "proyecto": {
+            "existe": true,
+            "link": "https://mascotas-felices.netlify.app/",
+            "imagen": "images/Mascotas-Felices.png",
+            "imagen_width": "80", 
+            "imagen_height": "80"
+        },
+        "certificado": {
+            "existe": true,
+            "link": "https://pub.coderhouse.com/legacy-certificates/65c0a148a665c35259cc62a3?lang=es",
+            "imagen": "images/Certificado.png"
+        }
+    },
+    {
+        "curso": "JavaScript",
+        "estado": "Finalizado",
+        "calificacion": 10,
+        "proyecto": {
+            "existe": true,
+            "link": "https://vuelasmart.netlify.app/",
+            "imagen": "images/VuelaSmart.png",
+            "imagen_width": "120", 
+            "imagen_height": "80"
+        },
+        "certificado": {
+            "existe": true,
+            "link": "https://pub.coderhouse.com/legacy-certificates/66158e00451ec417dfb30263?lang=es",
+            "imagen": "images/Certificado.png"
+        }
+    },
+    {
+        "curso": "React JS",
+        "estado": "Finalizado",
+        "calificacion": 9,
+        "proyecto": {
+            "existe": true,
+            "link": "https://zapatienda.vercel.app/",
+            "imagen": "images/Zapatienda.png",
+            "imagen_width": "80", 
+            "imagen_height": "80"
+        },
+        "certificado": {
+            "existe": true,
+            "link": "https://pub.coderhouse.com/legacy-certificates/664be1fdc35d22af7ccbacda?lang=es",
+            "imagen": "images/Certificado.png"
+        }
+    },
+    {
+        "curso": "Programación Backend I: Desarrollo avanzado de Backend",
+        "estado": "Finalizado",
+        "calificacion": 10,
+        "proyecto": {
+            "existe": true,
+            "link": "https://github.com/fedco-gtz/Backend-I-Coderhouse/",
+            "imagen": "images/Verde-Vital.png",
+            "imagen_width": "120", 
+            "imagen_height": "80"
+        },
+        "certificado": {
+            "existe": true,
+            "link": "https://pub.coderhouse.com/legacy-certificates/66a4638e64c8734d4c85aa10?lang=es",
+            "imagen": "images/Certificado.png"
+        }
+    },
+    {
+        "curso": "Programación Backend II: Diseño y Arquitectura Backend",
+        "estado": "Finalizado",
+        "calificacion": 10,
+        "proyecto": {
+            "existe": true,
+            "link": "https://github.com/fedco-gtz/Backend-II-Coderhouse/",
+            "imagen": "images/Verde-Vital.png",
+            "imagen_width": "120", 
+            "imagen_height": "80"
+        },
+        "certificado": {
+            "existe": true,
+            "link": "https://pub.coderhouse.com/legacy-certificates/66f5b32dd1c51d20ed892031?lang=es",
+            "imagen": "images/Certificado.png"
+        }
+    },
+    {
+        "curso": "Programación Backend III: Testing y Escalabilidad Backend",
+        "estado": "Finalizado",
+        "calificacion": 10,
+        "proyecto": {
+            "existe": true,
+            "link": "https://github.com/fedco-gtz/Backend-III-Coderhouse/",
+            "imagen": "images/AdoptMe.png",
+            "imagen_width": "120", 
+            "imagen_height": "80"
+        },
+        "certificado": {
+            "existe": true,
+            "link": "https://pub.coderhouse.com/legacy-certificates/67506c7b4ea27fc1cf1d02ef?lang=es",
+            "imagen": "images/Certificado.png"
+        }
+    },
+    {
+        "curso": "SQL",
+        "estado": "En Curso",
+        "calificacion": null,
+        "proyecto": {
+            "existe": false,
+            "link": "",
+            "imagen": "",
+            "imagen_width": "100", 
+            "imagen_height": "150"
+        },
+        "certificado": {
+            "existe": false,
+            "link": "",
+            "imagen": "images/Certificado.png"
+        }
+    },
+    {
+        "curso": "Testing QA Manual",
+        "estado": "Pendiente",
+        "calificacion": null,
+        "proyecto": {
+            "existe": false,
+            "link": "",
+            "imagen": "",
+            "imagen_width": "100", 
+            "imagen_height": "150"
+        },
+        "certificado": {
+            "existe": false,
+            "link": "",
+            "imagen": "images/Certificado.png"
+        }
+    },
+    {
+        "curso": "Cloud Computing (AWS)",
+        "estado": "Pendiente",
+        "calificacion": null,
+        "proyecto": {
+            "existe": false,
+            "link": "",
+            "imagen": "",
+            "imagen_width": "100", 
+            "imagen_height": "150"
+        },
+        "certificado": {
+            "existe": false,
+            "link": "",
+            "imagen": "images/Certificado.png"
+        }
+    },
+    {
+        "curso": "Fundamentos de la Inteligencia Artificial",
+        "estado": "Finalizado",
+        "calificacion": 10,
+        "proyecto": {
+            "existe": true,
+            "link": "",
+            "imagen": "images/Las-matemáticas-en-el-universo.png",
+            "imagen_width": "80", 
+            "imagen_height": "80"
+        },
+        "certificado": {
+            "existe": true,
+            "link": "https://pub.coderhouse.com/certificates/1edc3ff8-fff7-4f18-9b71-234e19d5ee31?v=1",
+            "imagen": "images/Certificado.png"
+        }
+    },
+    {
+        "curso": "Inteligencia artificial: Generación de Prompts",
+        "estado": "Finalizado",
+        "calificacion": null,
+        "proyecto": {
+            "existe": true,
+            "link": "",
+            "imagen": "images/.png",
+            "imagen_width": "80", 
+            "imagen_height": "80"
+        },
+        "certificado": {
+            "existe": false,
+            "link": "",
+            "imagen": "images/Certificado.png"
+        }
+    },
+    {
+        "curso": "Data Analytics",
+        "estado": "En curso",
+        "calificacion": null,
+        "proyecto": {
+            "existe": false,
+            "link": "",
+            "imagen": "images/.png",
+            "imagen_width": "80", 
+            "imagen_height": "80"
+        },
+        "certificado": {
+            "existe": false,
+            "link": "",
+            "imagen": "images/Certificado.png"
+        }
+    },
+    {
+        "curso": "Data Science I: Fundamentos para la Ciencia de Datos",
+        "estado": "Pendiente",
+        "calificacion": null,
+        "proyecto": {
+            "existe": false,
+            "link": "",
+            "imagen": "images/.png",
+            "imagen_width": "80", 
+            "imagen_height": "80"
+        },
+        "certificado": {
+            "existe": false,
+            "link": "",
+            "imagen": "images/Certificado.png"
+        }
+    },
+    {
+        "curso": "Data Science II: Machine Learning para la Ciencia de Datos",
+        "estado": "Pendiente",
+        "calificacion": null,
+        "proyecto": {
+            "existe": false,
+            "link": "",
+            "imagen": "images/.png",
+            "imagen_width": "80", 
+            "imagen_height": "80"
+        },
+        "certificado": {
+            "existe": false,
+            "link": "",
+            "imagen": "images/Certificado.png"
+        }
+    },
+    {
+        "curso": "Data Science III: NLP & Deep Learning aplicado a Ciencia de Datos",
+        "estado": "Pendiente",
+        "calificacion": null,
+        "proyecto": {
+            "existe": false,
+            "link": "",
+            "imagen": "images/.png",
+            "imagen_width": "80", 
+            "imagen_height": "80"
+        },
+        "certificado": {
+            "existe": false,
+            "link": "",
+            "imagen": "images/Certificado.png"
+        }
+    }
+]
