@@ -5,7 +5,7 @@
         "proyecto": {
             "existe": true,
             "link": "",
-            "imagen": "../images/Lumetrio/",
+            "imagen": "../images/Lumetrio/Piedra-Papel-Tijera.png",
             "imagen_width": "80", 
             "imagen_height": "80"
         },
@@ -19,7 +19,7 @@
         "curso": "Programación Frontend",
         "estado": "Finalizado",
         "proyecto": {
-            "existe": true,
+            "existe": false,
             "link": "",
             "imagen": "../images/Lumetrio/",
             "imagen_width": "120", 
@@ -36,8 +36,8 @@
         "estado": "Finalizado",
         "proyecto": {
             "existe": true,
-            "link": "",
-            "imagen": "../images/Lumetrio/",
+            "link": "https://colab.research.google.com/drive/1-gJo2rN_iyMP0ezwPLhU13teCePDKvBL?usp=sharing",
+            "imagen": "../images/Lumetrio/Piedra-Papel-Tijera.png",
             "imagen_width": "80", 
             "imagen_height": "80"
         },
@@ -52,8 +52,8 @@
         "estado": "Finalizado",
         "proyecto": {
             "existe": true,
-            "link": "",
-            "imagen": "../images/Lumetrio/",
+            "link": "https://funkoparadise.vercel.app/",
+            "imagen": "../images/Lumetrio/Funko-Paradise.png",
             "imagen_width": "120", 
             "imagen_height": "80"
         },
@@ -68,7 +68,7 @@
         "estado": "Finalizado",
         "proyecto": {
             "existe": true,
-            "link": "",
+            "link": "https://github.com/fedco-gtz/Git-y-GitHub",
             "imagen": "../images/Lumetrio/",
             "imagen_width": "120", 
             "imagen_height": "80"
@@ -84,7 +84,7 @@
         "estado": "En Curso",
         "proyecto": {
             "existe": false,
-            "link": "",
+            "link": "https://lumetrio.com/proyectos/ver/715",
             "imagen": "../images/Lumetrio/",
             "imagen_width": "120", 
             "imagen_height": "80"
