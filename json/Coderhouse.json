@@ -12,7 +12,7 @@
         "certificado": {
             "existe": true,
             "link": "https://pub.coderhouse.com/legacy-certificates/65c0a148a665c35259cc62a3?lang=es",
-            "imagen": "images/Certificado.png"
+            "imagen": "../images/Certificado.png"
         }
     },
     {
@@ -21,14 +21,14 @@
         "proyecto": {
             "existe": true,
             "link": "https://vuelasmart.netlify.app/",
-            "imagen": "images/Coderhouse/VuelaSmart.png",
+            "imagen": "../images/Coderhouse/VuelaSmart.png",
             "imagen_width": "120", 
             "imagen_height": "80"
         },
         "certificado": {
             "existe": true,
             "link": "https://pub.coderhouse.com/legacy-certificates/66158e00451ec417dfb30263?lang=es",
-            "imagen": "images/Certificado.png"
+            "imagen": "../images/Certificado.png"
         }
     },
     {
@@ -37,14 +37,14 @@
         "proyecto": {
             "existe": true,
             "link": "https://zapatienda.vercel.app/",
-            "imagen": "images/Coderhouse/ZapaTienda.png",
+            "imagen": "../images/Coderhouse/ZapaTienda.png",
             "imagen_width": "80", 
             "imagen_height": "80"
         },
         "certificado": {
             "existe": true,
             "link": "https://pub.coderhouse.com/legacy-certificates/664be1fdc35d22af7ccbacda?lang=es",
-            "imagen": "images/Certificado.png"
+            "imagen": "../images/Certificado.png"
         }
     },
     {
@@ -53,14 +53,14 @@
         "proyecto": {
             "existe": true,
             "link": "https://github.com/fedco-gtz/Backend-I-Coderhouse/",
-            "imagen": "images/Coderhouse/Verde-Vital.png",
+            "imagen": "../images/Coderhouse/Verde-Vital.png",
             "imagen_width": "120", 
             "imagen_height": "80"
         },
         "certificado": {
             "existe": true,
             "link": "https://pub.coderhouse.com/legacy-certificates/66a4638e64c8734d4c85aa10?lang=es",
-            "imagen": "images/Certificado.png"
+            "imagen": "../images/Certificado.png"
         }
     },
     {
@@ -69,14 +69,14 @@
         "proyecto": {
             "existe": true,
             "link": "https://github.com/fedco-gtz/Backend-II-Coderhouse/",
-            "imagen": "images/Coderhouse/Verde-Vital.png",
+            "imagen": "../images/Coderhouse/Verde-Vital.png",
             "imagen_width": "120", 
             "imagen_height": "80"
         },
         "certificado": {
             "existe": true,
             "link": "https://pub.coderhouse.com/legacy-certificates/66f5b32dd1c51d20ed892031?lang=es",
-            "imagen": "images/Certificado.png"
+            "imagen": "../images/Certificado.png"
         }
     },
     {
@@ -85,14 +85,14 @@
         "proyecto": {
             "existe": true,
             "link": "https://github.com/fedco-gtz/Backend-III-Coderhouse/",
-            "imagen": "images/Coderhouse/AdoptMe.png",
+            "imagen": "../images/Coderhouse/AdoptMe.png",
             "imagen_width": "120", 
             "imagen_height": "80"
         },
         "certificado": {
             "existe": true,
             "link": "https://pub.coderhouse.com/legacy-certificates/67506c7b4ea27fc1cf1d02ef?lang=es",
-            "imagen": "images/Certificado.png"
+            "imagen": "../images/Certificado.png"
         }
     },
     {
@@ -108,7 +108,7 @@
         "certificado": {
             "existe": false,
             "link": "",
-            "imagen": "images/Certificado.png"
+            "imagen": "../images/Certificado.png"
         }
     },
     {
@@ -124,7 +124,7 @@
         "certificado": {
             "existe": false,
             "link": "",
-            "imagen": "images/Certificado.png"
+            "imagen": "../images/Certificado.png"
         }
     },
     {
@@ -140,7 +140,7 @@
         "certificado": {
             "existe": false,
             "link": "",
-            "imagen": "images/Certificado.png"
+            "imagen": "../images/Certificado.png"
         }
     },
     {
@@ -149,14 +149,14 @@
         "proyecto": {
             "existe": true,
             "link": "",
-            "imagen": "images/Coderhouse/Las-matemáticas-en-el-universo.png",
+            "imagen": "../images/Coderhouse/Las-matemáticas-en-el-universo.png",
             "imagen_width": "80", 
             "imagen_height": "80"
         },
         "certificado": {
             "existe": true,
             "link": "https://pub.coderhouse.com/certificates/1edc3ff8-fff7-4f18-9b71-234e19d5ee31?v=1",
-            "imagen": "images/Certificado.png"
+            "imagen": "../images/Certificado.png"
         }
     },
     {
@@ -165,14 +165,14 @@
         "proyecto": {
             "existe": true,
             "link": "",
-            "imagen": "images/Coderhouse/MateAi.png",
-            "imagen_width": "130", 
+            "imagen": "../images/Coderhouse/MateAi.png",
+            "imagen_width": "140", 
             "imagen_height": "80"
         },
         "certificado": {
             "existe": true,
             "link": "https://pub.coderhouse.com/certificates/b9447d09-9e47-4efb-b76d-cbab513f5fa7?v=1",
-            "imagen": "images/Certificado.png"
+            "imagen": "../images/Certificado.png"
         }
     },
     {
@@ -181,14 +181,14 @@
         "proyecto": {
             "existe": false,
             "link": "",
-            "imagen": "images/.png",
+            "imagen": "",
             "imagen_width": "120", 
             "imagen_height": "80"
         },
         "certificado": {
             "existe": false,
             "link": "",
-            "imagen": "images/Certificado.png"
+            "imagen": "../images/Certificado.png"
         }
     },
     {
@@ -197,14 +197,14 @@
         "proyecto": {
             "existe": false,
             "link": "",
-            "imagen": "images/.png",
+            "imagen": "",
             "imagen_width": "80", 
             "imagen_height": "80"
         },
         "certificado": {
             "existe": false,
             "link": "",
-            "imagen": "images/Certificado.png"
+            "imagen": "../images/Certificado.png"
         }
     },
     {
@@ -213,14 +213,14 @@
         "proyecto": {
             "existe": false,
             "link": "",
-            "imagen": "images/.png",
+            "imagen": "",
             "imagen_width": "80", 
             "imagen_height": "80"
         },
         "certificado": {
             "existe": false,
             "link": "",
-            "imagen": "images/Certificado.png"
+            "imagen": "../images/Certificado.png"
         }
     },
     {
@@ -229,14 +229,14 @@
         "proyecto": {
             "existe": false,
             "link": "",
-            "imagen": "images/.png",
+            "imagen": "",
             "imagen_width": "80", 
             "imagen_height": "80"
         },
         "certificado": {
             "existe": false,
             "link": "",
-            "imagen": "images/Certificado.png"
+            "imagen": "../images/Certificado.png"
         }
     },
     {
@@ -252,7 +252,7 @@
         "certificado": {
             "existe": false,
             "link": "",
-            "imagen": "images/Certificado.png"
+            "imagen": "../images/Certificado.png"
         }
     },
     {
@@ -268,7 +268,7 @@
         "certificado": {
             "existe": false,
             "link": "",
-            "imagen": "images/Certificado.png"
+            "imagen": "../images/Certificado.png"
         }
     },
     {
@@ -284,7 +284,7 @@
         "certificado": {
             "existe": false,
             "link": "",
-            "imagen": "images/Certificado.png"
+            "imagen": "../images/Certificado.png"
         }
     }
 ]
