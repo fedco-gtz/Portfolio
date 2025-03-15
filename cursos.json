@@ -48,7 +48,7 @@
         }
     },
     {
-        "curso": "Programación Backend I: Desarrollo avanzado de Backend",
+        "curso": "Programación Backend I",
         "estado": "Finalizado",
         "proyecto": {
             "existe": true,
@@ -64,7 +64,7 @@
         }
     },
     {
-        "curso": "Programación Backend II: Diseño y Arquitectura Backend",
+        "curso": "Programación Backend II",
         "estado": "Finalizado",
         "proyecto": {
             "existe": true,
@@ -80,7 +80,7 @@
         }
     },
     {
-        "curso": "Programación Backend III: Testing y Escalabilidad Backend",
+        "curso": "Programación Backend III",
         "estado": "Finalizado",
         "proyecto": {
             "existe": true,
@@ -144,7 +144,7 @@
         }
     },
     {
-        "curso": "Fundamentos de la Inteligencia Artificial",
+        "curso": "Fundamentos de la IA",
         "estado": "Finalizado",
         "proyecto": {
             "existe": true,
@@ -160,7 +160,7 @@
         }
     },
     {
-        "curso": "Inteligencia artificial: Generación de Prompts",
+        "curso": "IA: Generación de Prompts",
         "estado": "Finalizado",
         "proyecto": {
             "existe": true,
@@ -192,7 +192,7 @@
         }
     },
     {
-        "curso": "Data Science I: Fundamentos para la Ciencia de Datos",
+        "curso": "Data Science I",
         "estado": "Pendiente",
         "proyecto": {
             "existe": false,
@@ -208,7 +208,7 @@
         }
     },
     {
-        "curso": "Data Science II: Machine Learning para la Ciencia de Datos",
+        "curso": "Data Science II",
         "estado": "Pendiente",
         "proyecto": {
             "existe": false,
@@ -224,7 +224,7 @@
         }
     },
     {
-        "curso": "Data Science III: NLP & Deep Learning aplicado a Ciencia de Datos",
+        "curso": "Data Science III",
         "estado": "Pendiente",
         "proyecto": {
             "existe": false,
