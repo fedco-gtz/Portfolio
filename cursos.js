@@ -19,10 +19,6 @@ document.addEventListener("DOMContentLoaded", function () {
                 cellEstado.classList.add("estado", item.estado.toLowerCase().replace(" ", "-"));
                 cellEstado.innerHTML = item.estado;
 
-                let cellCalificacion = document.createElement("td");
-                cellCalificacion.classList.add("calificacion", item.calificacion);
-                cellCalificacion.innerHTML = item.calificacion;
-
                 let cellProyecto = document.createElement("td");
                 cellProyecto.style.backgroundColor = "#121212";
                 cellProyecto.style.padding = "10px";
@@ -66,7 +62,6 @@ document.addEventListener("DOMContentLoaded", function () {
 
                 row.appendChild(cellCurso);
                 row.appendChild(cellEstado);
-                row.appendChild(cellCalificacion);
                 row.appendChild(cellProyecto);
                 row.appendChild(cellCertificado);
 
