@@ -37,7 +37,7 @@
         "proyecto": {
             "existe": true,
             "link": "https://zapatienda.vercel.app/",
-            "imagen": "images/Zapatienda.png",
+            "imagen": "images/ZapaTienda.png",
             "imagen_width": "80", 
             "imagen_height": "80"
         },
@@ -165,7 +165,7 @@
         "proyecto": {
             "existe": true,
             "link": "",
-            "imagen": "images/MateAI.png",
+            "imagen": "images/MateAi.png",
             "imagen_width": "80", 
             "imagen_height": "80"
         },
