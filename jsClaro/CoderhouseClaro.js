@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", function () {
-    fetch("../json/Coderhouse.json")
+    fetch("../../jsonClaro/CoderhouseClaro.json")
         .then(response => response.json())
         .then(data => {
             let tbody = document.querySelector("#data-table tbody");
