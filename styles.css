@@ -281,11 +281,6 @@ th {
     color: #ffffff;
 }
 
-/* td {
-    background-color: #1e1e1e;
-    background-image: url("./images/Noise.png");
-}*/
-
 #data-table {
     width: 100%;
     border-collapse: collapse;
@@ -331,7 +326,8 @@ th {
 
 /* Estado: Finalizado */
 .finalizado {
-    margin: 5px 50px; /* Ver esto */
+    margin-left: 25%;
+    margin-top: 40px;
     background-color: #4caf50;
     color: #ffffff;
     border-color: #4caf50;
@@ -345,15 +341,6 @@ th {
     color: #ffffff;
     border-color: #ff4d4d;
     justify-content: center;
-}
-
-/* 🎯 Calificación */
-.calificacion {
-    color:#ffd700;
-    font-size: 14px;
-    font-weight: bold;
-    text-transform: uppercase;
-    background-color: #121212;
 }
 
 
