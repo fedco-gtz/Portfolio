@@ -5,14 +5,14 @@
         "proyecto": {
             "existe": true,
             "link": "",
-            "imagen": "../images/BaEducacion/Music-Store.png",
+            "imagen": "../../images/BaEducacion/Music-Store.png",
             "imagen_width": "80", 
             "imagen_height": "80"
         },
         "certificado": {
             "existe": true,
             "link": "https://drive.google.com/file/d/1LbpYVB4MvOxZx4rpVx_PH-j8_vhc1e_U/view?usp=sharing",
-            "imagen": "../images/Certificado.png"
+            "imagen": "../../images/Certificado.png"
         }
     },
     {
@@ -21,14 +21,14 @@
         "proyecto": {
             "existe": true,
             "link": "",
-            "imagen": "../images/BaEducacion/CAC-Movies.png",
+            "imagen": "../../images/BaEducacion/CAC-Movies.png",
             "imagen_width": "120", 
             "imagen_height": "80"
         },
         "certificado": {
             "existe": true,
             "link": "https://drive.google.com/file/d/1L46wTK7QcFp6lzWnDXjxGAYi7Epablus/view?usp=sharing",
-            "imagen": "../images/Certificado.png"
+            "imagen": "../../images/Certificado.png"
         }
     },
     {
@@ -37,14 +37,14 @@
         "proyecto": {
             "existe": true,
             "link": "https://colab.research.google.com/drive/1SPE_t6KUmc47hlfKxNBiU3PI5W20-HXK?usp=sharing",
-            "imagen": "../images/BaEducacion/Inventario.png",
+            "imagen": "../../images/BaEducacion/Inventario.png",
             "imagen_width": "120", 
             "imagen_height": "80"
         },
         "certificado": {
             "existe": true,
             "link": "https://drive.google.com/file/d/1eLMbjnwjVip6VpYYJrvgT7-ySJjnAPiX/view?usp=sharing",
-            "imagen": "../images/Certificado.png"
+            "imagen": "../../images/Certificado.png"
         }
     },
     {
@@ -53,14 +53,14 @@
         "proyecto": {
             "existe": false,
             "link": "",
-            "imagen": "../images/BaEducacion/",
+            "imagen": "../../images/BaEducacion/",
             "imagen_width": "120", 
             "imagen_height": "80"
         },
         "certificado": {
             "existe": false,
             "link": "",
-            "imagen": "../images/Certificado.png"
+            "imagen": "../../images/Certificado.png"
         }
     }
 ]

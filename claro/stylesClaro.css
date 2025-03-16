@@ -235,7 +235,7 @@ body {
 
 h1 {
     text-align: center;
-    color: #ffd700;
+    color: #1e1e1e;
 }
 
 .startups {
@@ -276,12 +276,9 @@ th, td {
 }
 
 th {
-    background-color: #232323;
-    color: #ffd700;
-}
-
-td {
-    background-color: #1e1e1e;
+    background-color: #23232350;
+    background-image: url("../../images/Noise.png");
+    color: #000000;
 }
 
 #data-table {
@@ -297,11 +294,11 @@ td {
 
 /* 🎯 Nombre del curso */
 .curso {
-    color:#ffffff;
+    color:#000000;
     font-size: 14px;
     font-weight: bold;
     text-transform: uppercase;
-    background-color: #121212;
+
 }
 
 /* 🎯 Estado del curso */

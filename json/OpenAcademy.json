@@ -5,14 +5,14 @@
         "proyecto": {
             "existe": false,
             "link": "",
-            "imagen": "../images/OpenAcademy/",
+            "imagen": "../../images/OpenAcademy/",
             "imagen_width": "80", 
             "imagen_height": "80"
         },
         "certificado": {
             "existe": true,
             "link": "https://drive.google.com/file/d/1PCssWgcS_NSgHnJycS2aRDsRbbbk2HwK/view",
-            "imagen": "../images/Certificado.png"
+            "imagen": "../../images/Certificado.png"
         }
     },
     {
@@ -21,14 +21,14 @@
         "proyecto": {
             "existe": false,
             "link": "",
-            "imagen": "../images/OpenAcademy/",
+            "imagen": "../../images/OpenAcademy/",
             "imagen_width": "80", 
             "imagen_height": "80"
         },
         "certificado": {
             "existe": true,
             "link": "https://drive.google.com/file/d/1KHq8STQeGyLAKHRiMj_v7nkCXnpQR7je/view",
-            "imagen": "../images/Certificado.png"
+            "imagen": "../../images/Certificado.png"
         }
     },
     {
@@ -37,14 +37,14 @@
         "proyecto": {
             "existe": false,
             "link": "",
-            "imagen": "../images/OpenAcademy/",
+            "imagen": "../../images/OpenAcademy/",
             "imagen_width": "80", 
             "imagen_height": "80"
         },
         "certificado": {
             "existe": true,
             "link": "https://drive.google.com/file/d/1I8JOrpYBE_yUtf77cY-hQ5e-1BtfXvWz/view",
-            "imagen": "../images/Certificado.png"
+            "imagen": "../../images/Certificado.png"
         }
     },
     {
@@ -53,14 +53,14 @@
         "proyecto": {
             "existe": false,
             "link": "",
-            "imagen": "../images/OpenAcademy/",
+            "imagen": "../../images/OpenAcademy/",
             "imagen_width": "80", 
             "imagen_height": "80"
         },
         "certificado": {
             "existe": true,
             "link": "https://drive.google.com/file/d/1iG7jLa-r7vYB1Y1TgPGSiMnYDhrThP6g/view",
-            "imagen": "../images/Certificado.png"
+            "imagen": "../../images/Certificado.png"
         }
     }
 ]

@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", function () {
-    fetch("../json/Egg-Cooperation.json")
+    fetch("../../json/Egg-Cooperation.json")
         .then(response => response.json())
         .then(data => {
             let tbody = document.querySelector("#data-table tbody");
@@ -21,7 +21,6 @@ document.addEventListener("DOMContentLoaded", function () {
                 cellEstado.innerHTML = item.estado;
 
                 let cellProyecto = document.createElement("td");
-                cellProyecto.style.backgroundColor = "#121212";
                 cellProyecto.style.padding = "10px";
                 let proyectoLink = document.createElement("a");
                 if (item.proyecto.existe) {
@@ -41,7 +40,6 @@ document.addEventListener("DOMContentLoaded", function () {
                 cellProyecto.appendChild(proyectoLink);
 
                 let cellCertificado = document.createElement("td");
-                cellCertificado.style.backgroundColor = "#121212";
                 cellCertificado.style.padding = "10px";
                 let certificadoLink = document.createElement("a");
                 if (item.certificado.existe) {
