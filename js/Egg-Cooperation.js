@@ -16,6 +16,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 cellCurso.textContent = item.curso;
 
                 let cellEstado = document.createElement("td");
+                cellEstado.style.padding = "10px";
                 cellEstado.classList.add("estado", item.estado.toLowerCase().replace(" ", "-"));
                 cellEstado.innerHTML = item.estado;
 

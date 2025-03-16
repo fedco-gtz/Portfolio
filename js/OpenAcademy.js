@@ -16,11 +16,11 @@ document.addEventListener("DOMContentLoaded", function () {
                 cellCurso.textContent = item.curso;
 
                 let cellEstado = document.createElement("td");
+                cellEstado.style.padding = "10px";
                 cellEstado.classList.add("estado", item.estado.toLowerCase().replace(" ", "-"));
                 cellEstado.innerHTML = item.estado;
 
                 let cellProyecto = document.createElement("td");
-                cellProyecto.style.backgroundColor = "#121212";
                 cellProyecto.style.padding = "10px";
                 let proyectoLink = document.createElement("a");
                 if (item.proyecto.existe) {
@@ -40,7 +40,6 @@ document.addEventListener("DOMContentLoaded", function () {
                 cellProyecto.appendChild(proyectoLink);
 
                 let cellCertificado = document.createElement("td");
-                cellCertificado.style.backgroundColor = "#121212";
                 cellCertificado.style.padding = "10px";
                 let certificadoLink = document.createElement("a");
                 if (item.certificado.existe) {
