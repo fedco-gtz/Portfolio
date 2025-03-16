@@ -331,7 +331,7 @@ th {
 
 /* Estado: Finalizado */
 .finalizado {
-    margin: 5px 12px;
+    margin: 5px 50px; /* Ver esto */
     background-color: #4caf50;
     color: #ffffff;
     border-color: #4caf50;
