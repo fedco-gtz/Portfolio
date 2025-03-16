@@ -1,0 +1,34 @@
+[
+    {
+        "curso": "Primeros pasos del desarrollo frontend",
+        "estado": "Finalizado",
+        "proyecto": {
+            "existe": false,
+            "link": "",
+            "imagen": "../images/MinisterioEconomia/",
+            "imagen_width": "80", 
+            "imagen_height": "80"
+        },
+        "certificado": {
+            "existe": true,
+            "link": "https://drive.google.com/file/d/1515Bcy4hGdobzeDxOSyLe5kmVp-0Eq_Y/view?usp=sharing",
+            "imagen": "../images/Certificado.png"
+        }
+    },
+    {
+        "curso": "Desarrollador con conocimientos complementarios en el proceso de datos con Python",
+        "estado": "Finalizado",
+        "proyecto": {
+            "existe": false,
+            "link": "",
+            "imagen": "../images/MinisterioEconomia/",
+            "imagen_width": "80", 
+            "imagen_height": "80"
+        },
+        "certificado": {
+            "existe": true,
+            "link": "https://drive.google.com/file/d/1SkbRNg_086TElDsLmwMBhfzNecy6P1D7/view?usp=sharing",
+            "imagen": "../images/Certificado.png"
+        }
+    }
+]
