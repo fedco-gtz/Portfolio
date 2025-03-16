@@ -5,14 +5,14 @@
         "proyecto": {
             "existe": true,
             "link": "",
-            "imagen": "../images/Lumetrio/Piedra-Papel-Tijera.png",
+            "imagen": "../../images/Lumetrio/Piedra-Papel-Tijera.png",
             "imagen_width": "100", 
             "imagen_height": "80"
         },
         "certificado": {
             "existe": true,
             "link": "https://lumetrio.com/certificado/2086142bcefd37c4017a8",
-            "imagen": "../images/Certificado.png"
+            "imagen": "../../images/Certificado.png"
         }
     },
     {
@@ -21,14 +21,14 @@
         "proyecto": {
             "existe": false,
             "link": "",
-            "imagen": "../images/Lumetrio/",
+            "imagen": "../../images/Lumetrio/",
             "imagen_width": "120", 
             "imagen_height": "80"
         },
         "certificado": {
             "existe": true,
             "link": "https://lumetrio.com/certificado/20862bcbb1bcd3cf835db",
-            "imagen": "../images/Certificado.png"
+            "imagen": "../../images/Certificado.png"
         }
     },
     {
@@ -37,14 +37,14 @@
         "proyecto": {
             "existe": true,
             "link": "https://colab.research.google.com/drive/1-gJo2rN_iyMP0ezwPLhU13teCePDKvBL?usp=sharing",
-            "imagen": "../images/Lumetrio/Piedra-Papel-Tijera.png",
+            "imagen": "../../images/Lumetrio/Piedra-Papel-Tijera.png",
             "imagen_width": "100", 
             "imagen_height": "80"
         },
         "certificado": {
             "existe": true,
             "link": "https://lumetrio.com/certificado/20865d3165b9228fa0c96",
-            "imagen": "../images/Certificado.png"
+            "imagen": "../../images/Certificado.png"
         }
     },
     {
@@ -53,14 +53,14 @@
         "proyecto": {
             "existe": true,
             "link": "https://funkoparadise.vercel.app/",
-            "imagen": "../images/Lumetrio/Funko-Paradise.png",
+            "imagen": "../../images/Lumetrio/Funko-Paradise.png",
             "imagen_width": "120", 
             "imagen_height": "80"
         },
         "certificado": {
             "existe": true,
             "link": "https://lumetrio.com/certificado/2086729e93aab4bd650fd",
-            "imagen": "../images/Certificado.png"
+            "imagen": "../../images/Certificado.png"
         }
     },
     {
@@ -69,14 +69,14 @@
         "proyecto": {
             "existe": true,
             "link": "https://github.com/fedco-gtz/Git-y-GitHub",
-            "imagen": "../images/Lumetrio/Git-Hub.png",
+            "imagen": "../../images/Lumetrio/Git-Hub.png",
             "imagen_width": "120", 
             "imagen_height": "80"
         },
         "certificado": {
             "existe": true,
             "link": "https://lumetrio.com/certificado/20864454c6075c8b691d9",
-            "imagen": "../images/Certificado.png"
+            "imagen": "../../images/Certificado.png"
         }
     },
     {
@@ -85,14 +85,14 @@
         "proyecto": {
             "existe": false,
             "link": "https://lumetrio.com/proyectos/ver/715",
-            "imagen": "../images/Lumetrio/",
+            "imagen": "../../images/Lumetrio/",
             "imagen_width": "120", 
             "imagen_height": "80"
         },
         "certificado": {
             "existe": false,
             "link": "",
-            "imagen": "../images/Certificado.png"
+            "imagen": "../../images/Certificado.png"
         }
     },
     {
@@ -101,14 +101,14 @@
         "proyecto": {
             "existe": false,
             "link": "",
-            "imagen": "../images/Lumetrio/",
+            "imagen": "../../images/Lumetrio/",
             "imagen_width": "100", 
             "imagen_height": "150"
         },
         "certificado": {
             "existe": false,
             "link": "",
-            "imagen": "../images/Certificado.png"
+            "imagen": "../../images/Certificado.png"
         }
     }  
 ]
