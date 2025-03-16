@@ -322,6 +322,7 @@ td {
 
 /* Estado: En curso */
 .en-curso {
+    margin-left: 25%;
     background-color: #ff9800;
     color: #ffffff;
     border-color: #ff9800;
@@ -331,6 +332,8 @@ td {
 
 /* Estado: Finalizado */
 .finalizado {
+    margin-left: 25%;
+    margin-top: 40px;
     background-color: #4caf50;
     color: #ffffff;
     border-color: #4caf50;
@@ -339,19 +342,11 @@ td {
 
 /* Estado: Pendiente */
 .pendiente {
+    margin-left: 25%;
     background-color: #ff4d4d;
     color: #ffffff;
     border-color: #ff4d4d;
     justify-content: center;
-}
-
-/* 🎯 Calificación */
-.calificacion {
-    color:#ffd700;
-    font-size: 14px;
-    font-weight: bold;
-    text-transform: uppercase;
-    background-color: #121212;
 }
 
 

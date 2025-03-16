@@ -317,6 +317,7 @@ th {
 
 /* Estado: En curso */
 .en-curso {
+    margin-left: 25%;
     background-color: #ff9800;
     color: #ffffff;
     border-color: #ff9800;
@@ -337,6 +338,7 @@ th {
 
 /* Estado: Pendiente */
 .pendiente {
+    margin-left: 25%;
     background-color: #ff4d4d;
     color: #ffffff;
     border-color: #ff4d4d;
