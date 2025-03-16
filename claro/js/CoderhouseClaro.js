@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", function () {
-    fetch("../json/Coderhouse.json")
+    fetch("../../json/coderhouse.json")
         .then(response => response.json())
         .then(data => {
             let tbody = document.querySelector("#data-table tbody");
@@ -40,6 +40,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 cellProyecto.appendChild(proyectoLink);
 
                 let cellCertificado = document.createElement("td");
+                cellCertificado.style.backgroundColor = "#121212";
                 cellCertificado.style.padding = "10px";
                 let certificadoLink = document.createElement("a");
                 if (item.certificado.existe) {
