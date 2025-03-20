@@ -186,8 +186,8 @@
             "imagen_height": "80"
         },
         "certificado": {
-            "existe": false,
-            "link": "",
+            "existe": true,
+            "link": "https://pub.coderhouse.com/certificates/04a00609-e6f4-4718-9cd0-80a97f114102?v=1",
             "imagen": "../images/Certificado.png"
         }
     },
