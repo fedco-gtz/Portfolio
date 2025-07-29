@@ -136,21 +136,66 @@
                 </div>
             </section>
 
-            <!--
             <section class="certificados__carousel">
-                <h2 class="certificados__titulo">Certificados Obtenidos</h2>
-                <div class="carousel">
+                <h2 class="perfil__titulo">Certificados Obtenidos</h2>
+                <div class="carousel" id="carousel">
                     <div class="carousel__track">
-                        <img src="img/certificado1.png" alt="Certificado 1" class="carousel__item">
-                        <img src="img/certificado2.png" alt="Certificado 2" class="carousel__item">
-                        <img src="img/certificado3.png" alt="Certificado 3" class="carousel__item">
-                        <img src="img/certificado1.png" alt="Certificado 1 duplicado" class="carousel__item">
-                        <img src="img/certificado2.png" alt="Certificado 2 duplicado" class="carousel__item">
-                        <img src="img/certificado3.png" alt="Certificado 3 duplicado" class="carousel__item">
+                        <img src="./img/Certificados/Desarrollo-Web.png" alt="Certificado Desarrollo Web"
+                            class="carousel__item" onclick="abrirModal(this)">
+                        <img src="./img/Certificados/JavaScript.png" alt="Certificado JavaScript" class="carousel__item"
+                            onclick="abrirModal(this)">
+                        <img src="./img/Certificados/ReactJs.png" alt="Certificado React Js" class="carousel__item"
+                            onclick="abrirModal(this)">
+                        <img src="./img/Certificados/Carrera-Desarrollo-Frontend-React.png"
+                            alt="Certificado Carrera de Desarrollo Frontend React" class="carousel__item"
+                            onclick="abrirModal(this)">
+                        <img src="./img/Certificados/Programacion-Backend-I.png"
+                            alt="Certificado Programación Backend I" class="carousel__item" onclick="abrirModal(this)">
+                        <img src="./img/Certificados/Programacion-Backend-II.png"
+                            alt="Certificado Programación Backend II" class="carousel__item" onclick="abrirModal(this)">
+                        <img src="./img/Certificados/Programacion-Backend-III.png"
+                            alt="Certificado Programación Backend III" class="carousel__item"
+                            onclick="abrirModal(this)">
+                        <img src="./img/Certificados/SQL.png" alt="Certificado SQL" class="carousel__item"
+                            onclick="abrirModal(this)">
+                        <img src="./img/Certificados/Testing-QA-Manual.png" alt="Certificado Testing QA Manual"
+                            class="carousel__item" onclick="abrirModal(this)">
+                        <img src="./img/Certificados/Fundamentos-IA.png" alt="Certificado Fundamentos de la IA"
+                            class="carousel__item" onclick="abrirModal(this)">
+                        <img src="./img/Certificados/IA-Generacion-de-Prompts.png"
+                            alt="Certificado IA: Generación de Prompts" class="carousel__item"
+                            onclick="abrirModal(this)">
+                        <img src="./img/Certificados/Data-Analytics.png" alt="Certificado Data Analytics"
+                            class="carousel__item" onclick="abrirModal(this)">
+                        <img src="./img/Certificados/Data-Science-I.png" alt="Certificado Data Science I"
+                            class="carousel__item" onclick="abrirModal(this)">
+                        <img src="./img/Certificados/Programacion-Desde-Cero.jpeg"
+                            alt="Certificado Programacion desde Cero" class="carousel__item" onclick="abrirModal(this)">
+                        <img src="./img/Certificados/Programacion-Desde-Cero.jpeg"
+                            alt="Certificado Programacion desde Cero" class="carousel__item" onclick="abrirModal(this)">
+                        <img src="./img/Certificados/Introduccion-a-la-Programacion.jpg"
+                            alt="Certificado Introducción a la Programación" class="carousel__item"
+                            onclick="abrirModal(this)">
+                        <img src="./img/Certificados/Introduccion-Programacion.jpg"
+                            alt="Certificado Introducción a la Programación" class="carousel__item"
+                            onclick="abrirModal(this)">
+                        <img src="./img/Certificados/Programacion-Frontend.jpg" alt="Certificado Programacion Frontend"
+                            class="carousel__item" onclick="abrirModal(this)">
+                        <img src="./img/Certificados/Python.jpg" alt="Certificado Python" class="carousel__item"
+                            onclick="abrirModal(this)">
+                        <img src="./img/Certificados/React.jpg" alt="Certificado React" class="carousel__item"
+                            onclick="abrirModal(this)">
+                        <img src="./img/Certificados/Git-y-Github.jpg" alt="Certificado Git y Github"
+                            class="carousel__item" onclick="abrirModal(this)">
                     </div>
                 </div>
             </section>
-            -->
+
+            <!-- Modal -->
+            <div class="modal" id="modal">
+                <span class="modal__cerrar" onclick="cerrarModal()">&times;</span>
+                <img class="modal__contenido" id="modal__img" alt="Certificado ampliado">
+            </div>
     </main>
 
     <footer class="footer">
@@ -160,6 +205,8 @@
             <img class="presentacion__link__footer__img" src="./img/LinkedIn.png" alt="Icono de LinkedIn" />
         </a>
     </footer>
+
+    <script src="app.js"></script>
 </body>
 
 </html>
