@@ -155,7 +155,8 @@ body {
   transition: background-color 0.3s ease, transform 0.2s ease;
 }
 
-.presentacion__boton__contenido:hover {
+.presentacion__boton__contenido:hover,
+.submenu__lista li a:hover {
   background-color: #E4574D;
   transform: scale(1.03);
 }
@@ -295,4 +296,117 @@ body {
   .presentacion__imagen {
     width: 90%;
   }
+}
+
+.perfil__aval__logos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1.5rem;
+}
+
+.perfil__logo {
+    max-width: 120px;
+    height: auto;
+    transition: transform 0.3s ease-in-out;
+}
+
+.perfil__logo:hover {
+    transform: scale(1.1);
+}
+
+
+.submenu {
+  text-align: center;
+  margin: 2rem 0;
+}
+
+.submenu__lista {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+  padding: 1.2rem;
+}
+
+.submenu__lista li a {
+  text-decoration: none;
+  background-color: var(--color-secundario);
+  color: var(--color-texto-principal);
+  padding: 0.5rem 1rem;
+  border-radius: 8px;
+  font-weight: bold;
+  transition: background 0.3s ease;
+}
+
+.proyectos__seccion {
+  padding: 2rem;
+  text-align: center;
+}
+
+.proyectos__titulo {
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+  color: var(--color-texto-principal);
+}
+
+.proyectos__grid {
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+  flex-wrap: wrap;
+}
+
+.proyectos__logo {
+  max-width: 120px;
+  height: auto;
+  border-radius: 12px;
+  transition: transform 0.3s ease;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.proyectos__logo:hover {
+  transform: scale(1.05);
+}
+
+
+
+.certificados__carousel {
+  padding: 2rem;
+  text-align: center;
+  background-color: #f9f9f9;
+}
+
+.certificados__titulo {
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+  color: #444;
+}
+
+.carousel {
+  overflow: hidden;
+  width: 100%;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.carousel__track {
+  display: flex;
+  width: fit-content;
+  animation: scroll 20s linear infinite;
+  gap: 2rem;
+}
+
+.carousel__item {
+  max-height: 150px;
+  height: auto;
+  width: auto;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+@keyframes scroll {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(-50%); }
 }
